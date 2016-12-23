@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/powered_by_tsd_txt"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@color/colorGameBottomTextBackground"
+    android:textSize="@dimen/text_size_bottom"
+    android:textColor="@color/colorGameBottomText"
+    android:text="@string/game_bottom_tsd_text"
+    android:layout_weight="0.2">
+
+</android.widget.TextView>

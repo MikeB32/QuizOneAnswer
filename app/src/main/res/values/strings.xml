@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Nor Tari 1</string>
+
+    <string name="game_start_btn_text">Սկսել</string>
+    <string name="game_game_over_btn_text">Սկսել նորից</string>
+    <string name="game_bottom_tsd_text">powered by TECHNOLOGY &amp; SCIENCE DYNAMICS</string>
+</resources>

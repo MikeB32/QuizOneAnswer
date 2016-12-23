@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="am.tsd.inchuner.program26.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/game_background"
+        android:scaleType="centerCrop"/>
+
+    <Button
+        android:id="@+id/main_activity_start_btn"
+        android:layout_width="500dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:text="@string/game_start_btn_text"
+        android:textSize="@dimen/text_size_start_btn"
+        android:background="@drawable/rectangle_button"/>
+
+    <include layout="@layout/layout_powered_by_tsd"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+
+</RelativeLayout>

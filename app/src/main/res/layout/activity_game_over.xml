@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="am.tsd.inchuner.program26.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/game_background"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/game_over_result_correct_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="@dimen/text_size_game_over_text_correct"
+        android:textColor="@color/colorGameOverCorrectText"/>
+
+    <TextView
+        android:id="@+id/game_over_result_wrong_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/game_over_result_correct_txt"
+        android:textSize="@dimen/text_size_game_over_text_wrong"
+        android:textColor="@color/colorGameOverWrongText"/>
+
+    <include layout="@layout/layout_powered_by_tsd"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+
+    <Button
+        android:id="@+id/game_over_restart_btn"
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/margin_restart_game_bottom"
+        android:layout_centerHorizontal="true"
+        android:text="@string/game_game_over_btn_text"
+        android:textSize="@dimen/text_size_question"
+        android:background="@drawable/rectangle_button"/>
+
+</RelativeLayout>
